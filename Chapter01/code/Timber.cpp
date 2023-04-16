@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	// Create a video mode object
-	VideoMode vm(1920, 1080);
+	VideoMode vm(1620, 960);
 
 	// Create and open a window for the game
 	RenderWindow window(vm, "Timber!!!", Style::Default);
