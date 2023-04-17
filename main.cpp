@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	VideoMode vm(1600, 900);
+	VideoMode vm(1600, 900);;;
 	RenderWindow window(vm, "Pong", Style::Default);
 	int score = 0;
 	int lives = 3;
