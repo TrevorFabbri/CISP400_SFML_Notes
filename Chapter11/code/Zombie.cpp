@@ -2,6 +2,7 @@
 #include "TextureHolder.h"
 #include <cstdlib>
 #include <ctime>
+#include <cmath>
 using namespace std;
 
 void Zombie::spawn(float startX, float startY, int type, int seed)
@@ -45,6 +46,8 @@ void Zombie::spawn(float startX, float startY, int type, int seed)
 
 	// Set its position
 	m_Sprite.setPosition(m_Position);
+	m_Alive = true;
+
 }
 
 bool Zombie::hit()
