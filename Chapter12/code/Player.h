@@ -37,6 +37,7 @@ private:
 
 	// How much health has the player got?
 	int m_Health;
+
 	// What is the maximum health the player can have
 	int m_MaxHealth;
 
